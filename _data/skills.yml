@@ -2,8 +2,6 @@
 # https://github.com/simple-icons/simple-icons/blob/master/slugs.md
 
 skills:
-  - skill: jekyll
-  - skill: html5
-  - skill: css3
-  - skill: javascript
-  - skill: bootstrap
+  - skill: kubernetes
+  - skill: docker
+  - skill: ruby

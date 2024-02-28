@@ -13,6 +13,7 @@ GEM
     execjs (2.9.1)
     ffi (1.16.3)
     forwardable-extended (2.6.0)
+    google-protobuf (3.25.1-arm64-darwin)
     google-protobuf (3.25.1-x86_64-linux)
     htmlcompressor (0.4.0)
     http_parser.rb (0.8.0)
@@ -63,7 +64,9 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    nokogiri (1.16.0-x86_64-linux)
+    nokogiri (1.15.5-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.15.5-x86_64-linux)
       racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -76,7 +79,7 @@ GEM
     rexml (3.2.6)
     rouge (4.2.0)
     safe_yaml (1.0.5)
-    sass-embedded (1.69.5)
+    sass-embedded (1.63.6)
       google-protobuf (~> 3.23)
       rake (>= 13.0.0)
     terminal-table (3.0.2)
@@ -87,6 +90,7 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
+  arm64-darwin-22
   x86_64-linux
 
 DEPENDENCIES
@@ -98,4 +102,4 @@ DEPENDENCIES
   rouge
 
 BUNDLED WITH
-   2.4.21
+   2.4.15
