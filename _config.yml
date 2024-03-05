@@ -9,7 +9,7 @@ timezone: Asia/Karachi # Change to your timezone - https://kevinnovak.github.io/
 
 title: Qasim Abdullah
 tagline: Software / DevOps Engineer
-description: A Jekyll theme with sidebar for personal website and blog. 
+description: Personal website and blog. 
 avatar: "assets/img/avatar/avatar.png" # The avatar on sidebar
 
 # Social profiles
