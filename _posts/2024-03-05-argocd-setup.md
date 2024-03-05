@@ -11,7 +11,7 @@ tags:
 
 ## What we are going to setup
 
-In this post, we are going to cover how to setup ArgoCD to maintain the Kuberenetes applicatio state
+In this post, we are going to cover how to setup ArgoCD to maintain the Kuberenetes application state.
 
 ## Prerequisites
 
@@ -60,7 +60,7 @@ spec:
       prune: true
 ```
 
-This tells ArgoCD to look for manifests at https://github.com/qasimabdullah404/argocd-test/tree/main/manifests and sync the cluster stateto mentioned manifests. The sync policy states:
+This tells ArgoCD to look for [manifests](https://github.com/qasimabdullah404/argocd-test/tree/main/manifests) and sync the cluster state to mentioned manifests. The sync policy states:
 
 - Create the namespace if it doesn't exist within the cluster
 - `selfHeal` will revert any changes made from the terminal e.g. `kubectl` commands to update image etc
@@ -68,7 +68,7 @@ This tells ArgoCD to look for manifests at https://github.com/qasimabdullah404/a
 
 ## Create a GitHub repository to store manifests
 
-To setup resources within the cluster i.e. deployments, etc; create a GitHub repository e.g. https://github.com/qasimabdullah404/argocd-test/tree/main/manifests and store your YAML manifest(s).
+To setup resources within the cluster i.e. deployments, etc; create a GitHub repository e.g. <https://github.com/qasimabdullah404/argocd-test/tree/main/manifests> and store your YAML manifest(s).
 
 ## Apply ArgoCD application manifest
 
